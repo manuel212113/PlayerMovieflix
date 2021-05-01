@@ -40,10 +40,10 @@ $sub = $_GET ['subtitle'];
 
 			player.setup({
 			  sources: [ {
-					file: "./di1.php?id=<?=$_GET['id']?>", label: "HD",
+					file: "./di1.php?id=<?=$_GET['id']?>", label: "720P",
 					type: "video/mp4"
 					},{
-					file: "./di.php?id=<?=$_GET['id']?>", label: "SD",
+					file: "./di.php?id=<?=$_GET['id']?>", label: "360P",
 					type: "video/mp4"
 					}
 			  ],
